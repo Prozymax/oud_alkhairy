@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;600;700;800;900&display=swap");
+
+:root
+{
+    --themeColor: #583977;
+    --secondaryThemeColor: #31AC41;
+}
+
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header
+{
+    width: 100%;height: fit-content;
+}
