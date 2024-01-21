@@ -19,12 +19,12 @@ body {
 
 header
 {
-    width: 100%;height: fit-content;
+    width: 100%;height: fit-content;position: absolute;top: 0;left: 0;
 }
 
 .pre-header 
 {
-    height: 40px;
+    height: 40px;position: relative;
 }
 
 .pre-header section
@@ -40,4 +40,51 @@ header
 .pre-header i
 {
     padding-inline-start: 2%;;
+}
+
+nav 
+{
+    background-color: rgba(71, 34, 71, 0.185);
+}
+
+nav ul
+{
+    display: flex;align-items: center;justify-content: center;width: 90%;margin: 0 auto;
+}
+
+nav img 
+{
+    width: 80px;height: 80px;filter: grayscale(0%);;
+}
+
+nav li
+{
+    width: 12%;list-style-type: none;text-transform: uppercase;height: 100%;text-align: center;
+    cursor: pointer;color: white;
+}
+
+.fa-caret-right
+{
+    transform: rotate(90deg);padding: 0 5%;opacity: 1;;
+}
+
+nav i
+{
+    transform: translateX(120%);opacity: 0;transition: .5s;
+}
+
+nav li:hover i
+{
+    opacity: 1; transform: translateX(-80%);
+}
+nav li:hover .fa-caret-right {transform: rotate(-90deg)}
+.fa-search {opacity: 1;}
+
+
+#intro 
+{
+    height: 100vh;width: 100%;background: rgba(32, 30, 34, 0.473);
+    background-repeat: no-repeat;background-size: 100%;background-position: center;
+    background-image: url('../img/pexels-pok-rie-1726310.jpg');
+    background-blend-mode: soft-light;
 }
