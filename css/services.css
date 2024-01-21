@@ -3,11 +3,11 @@ a{
 }
 i{
  margin: 10px;
- color: var(--themeColor);
+ /* color: var(--themeColor); */
  font-weight: bolder;
 }
 #firstSection{
- width: 100%;height:100vh;margin: 0 auto;padding: 0 auto; padding-inline: 5%;
+ width: 100%;height:100vh;margin: 0 auto;padding:27% 5%;
  background-color: #3523478d;
  display: flex;
  align-items: center;justify-content:flex-start;
@@ -25,7 +25,7 @@ i{
  display: flex;align-items:left;justify-content:center;flex-direction: column;
 }
 #firstSection .firstDiv span{
- color: var(--themeColor);
+ color: var(--secondaryThemeColor);
  font-weight: bold;
 
 }
@@ -42,8 +42,8 @@ i{
 #firstSection .firstDiv a{
  width: fit-content; height: fit-content;
  text-align: right;
-padding: 10px 20px 10px 10px;
-background-color: var(--themeColor);
+padding: 10px 10px 10px 20px; border-radius: 20px;
+background-color: var(--secondaryThemeColor);
 color: white;
 position: absolute;
 bottom: 9%;
@@ -105,11 +105,15 @@ right: 7%;
 }
 
 #secondSection .secondDiv a{
-background-color: var(--themeColor);
-padding: 10px 20px;
+background-color: var(--secondaryThemeColor);
+padding: 10px 20px;  border-radius: 20px;
 width: fit-content;height: fit-content;
 color: white;
 }
 #secondSection .secondDiv li{
 list-style-type:none;
+}
+
+#secondSection .secondDiv li i{
+ color: var(--themeColor);
 }
