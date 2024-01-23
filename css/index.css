@@ -5,6 +5,13 @@
     --themeColor: #583977;
     --darkThemeColor: #352347;
     --secondaryThemeColor: #31AC41;
+    --extremeDarkThemeColor: #20142c;
+    --themeShade: rgba(41, 6, 49, 0.671);
+}
+
+::placeholder
+{
+    font-family: inherit;font-weight: bolder;
 }
 
 *
@@ -120,3 +127,106 @@ nav li:hover .fa-caret-right {transform: rotate(-90deg)}
 {
     border-radius: 30px;
 }
+
+
+.apm 
+{
+    width: 100%;display: flex;justify-content: flex-end;height: 30vh;
+}
+
+.apm section
+{
+    display: flex;width: 55%;margin-top: -8%;height: 100%;box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.267);
+}
+
+.apm article:first-of-type
+{
+    background-color: var(--extremeDarkThemeColor);color: white;padding: 4%;
+    width: 50%;
+}
+
+
+.apm h2 
+{
+    font-size: 1.5vw;padding: 2% 0;
+}
+
+.apm article:first-of-type p
+{
+    height: 50%;padding: 2% 0;;
+}
+
+.apm hr
+{
+    width: 30%;
+}
+
+.apm article:last-of-type
+{
+    background: white;padding: 4% 3%;
+}
+.apm input
+{
+    width: 46%;height: 50px;border: none;background: rgba(175, 169, 169, 0.39);
+    margin: 1%;padding: 0 2%;font-family: inherit;border-radius: 3px;
+}
+
+.apm input:focus, .apm input:hover
+{
+    border: none;outline: none;
+}
+
+.apm i
+{
+    display: none;
+}
+
+.apm input[type="submit"]
+{
+    width: 95%;background-color: var(--extremeDarkThemeColor);color: white;transition: .5s;
+}
+
+.apm input[type="submit"]:hover
+{
+    background-color: rgb(54, 9, 75);box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.123);
+    font-weight: bolder;
+}
+
+#about-div 
+{
+    display: flex;align-items: center;justify-content: center;height: 60vh;
+}
+
+#about-div div:first-of-type
+{
+    width: 40%;height: fit-content;;border: 1px solid blue;padding: 1%;
+}
+
+#about-div div:first-of-type span
+{
+    color: var(--darkThemeColor);font-weight: bolder;
+}
+
+#about-div div:first-of-type h1
+{
+    font-size: 3vw;width: 85%;line-height: 100%;padding-top: 2%;
+}
+
+#about-div div:first-of-type p:first-of-type
+{
+    padding: 2% 0;width: 90%;
+}
+
+#about-div div:first-of-type article
+{
+    background-color: yellow;color: grey;display: flex;align-items: center;
+}
+
+#about-div div:first-of-type article:first-of-type i {font-size: 4vw;color: var(--extremeDarkThemeColor);;}
+#about-div div:first-of-type ul {width: 50%;background-color: red;margin-right: -5%;}
+
+#about-div div:last-child
+{
+    width: 40%;
+}
+
