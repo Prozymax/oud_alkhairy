@@ -9,6 +9,12 @@
     --themeShade: rgba(41, 6, 49, 0.671);
 }
 
+button
+{
+    font-family: inherit;border: none;
+}
+input:focus {outline: none;border: none;}
+
 ::placeholder
 {
     font-family: inherit;font-weight: bolder;

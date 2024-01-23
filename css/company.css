@@ -1,0 +1,25 @@
+#about-intro
+{
+ width: 100%;height: 85vh;background-color: var(--themeShade);display: flex;align-items: center;background-image: url("../img/pexels-photomix-company-224924.jpg");
+ background-repeat: no-repeat;background-position: center;background-size: 100%;background-blend-mode: soft-light;padding-top: 3%;
+}
+
+#about-intro section 
+{
+ width: 35%;height: 50%;margin-inline-start: 15%;background: var(--themeShade);;color: white;padding: 3%;;
+}
+
+#about-intro section span
+{
+ font-size: .9vw;;
+}
+
+#about-intro h1
+{
+ font-size: 2vw;padding: 2% 0;
+}
+
+#about-intro article
+{
+ height: 50%;
+}
