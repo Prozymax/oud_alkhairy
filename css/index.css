@@ -302,3 +302,39 @@ nav li:hover .fa-caret-right {transform: rotate(-90deg)}
 {
  width: 30%;margin: 0 1%;;
 }
+
+#phx 
+{
+ width: 100%;height: 70vh;display: flex;align-items: center;justify-content: center;
+}
+
+#phx div:first-of-type {width: 40%;height: 95%;display: flex;align-items: center;position: relative;margin-inline-end: 3%;}
+#phx div:first-of-type section {width: 90%;;display: flex;align-items: center;background: red;height: 80%;position: relative;}
+#phx div:first-of-type section figure 
+{
+    width: 55%;height: 90%;background: yellow;;
+}
+#phx div:first-of-type section:last-of-type {
+    position: absolute;right: 0;top: 0;background-color: brown;z-index: 1;
+    width: 50%;
+}
+#phx div:first-of-type section:last-of-type figure {width: 100%;height: 100%;}
+#phx div:first-of-type section article 
+{
+    position: absolute;height: fit-content;padding: 4%;background: white;display: grid;place-items: center;line-height: 100%;
+    right: 40%;bottom: 0;z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+#phx div:last-of-type 
+{
+    width: 30%;
+}
