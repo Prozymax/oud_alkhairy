@@ -6,161 +6,58 @@ i{
  /* color: var(--themeColor); */
  font-weight: bolder;
 }
-#firstSection{
- width: 100%;height:100vh;margin: 0 auto;padding:27% 5%;
- background-color: #3523478d;
- display: flex;
+.secondSection{
+ width: 100%;height:70vh;margin: 0 auto;padding: 0 auto; padding-inline: 5%;
+ background-color: white; position: relative;
+ display: flex; gap: 40px; flex-direction: column;
  align-items: center;justify-content:flex-start;
- background-image:url(/img/assetFirstSectionImage.jpg);
- background-blend-mode:soft-light; 
- background-position: top;background-size:cover;background-repeat: no-repeat;
-
-
 }
-
-#firstSection .firstDiv{
- width: 60%;height: fit-content;margin: 0;padding:5% 3% 8% 3%;
- background-color: #352347d4;position: relative;
- gap: 20px;
- display: flex;align-items:left;justify-content:center;flex-direction: column;
+.secondSection .head{
+ width: 100%; padding: 5% 0px 0px 0px; margin: 0; display: flex;
+ align-items: flex-start;height: fit-content; justify-content: flex-start; flex-direction: column; 
 }
-#firstSection .firstDiv span{
- color: var(--secondaryThemeColor);
- font-weight: bold;
+.secondSection .head span{
+ color: var(--secondaryThemeColor); font-weight: bold;
+}
+.secondSection .head h1{
+ font-size:3vw; font-weight: bold;
 
 }
-#firstSection .firstDiv h1{
- color: white;
- font-size:4vw;
- line-height: 90%;
- font-weight: bold;
+.secondSection .grid{
+ width: 100%; height: max-content; margin:17% 0px 0px 0px ; padding: 0 auto;
+ display: flex; gap: 10px; align-items: center; justify-content: space-evenly;
+ position: absolute;  flex-wrap:wrap;
 }
-#firstSection .firstDiv article{
- color: white;
- font-size: 0.9vw;
+.secondSection section{
+ width: 30%; margin: 50px 0px 100px 0px ; padding: 0; display: flex;
+  align-items: center; justify-content: center; flex-direction: column;
+  background-color: white; height: 400px; gap: 5px; position: relative;
+  border-radius: 20px;
 }
-#firstSection .firstDiv a{
- width: fit-content; height: fit-content;
- text-align: right;
-padding: 10px 10px 10px 20px; border-radius: 20px;
-background-color: var(--secondaryThemeColor);
-color: white;
-position: absolute;
-bottom: 9%;
-right: 7%;
+.secondSection section img{
+ width: 100%; height: auto; z-index: 1; margin-top:-30%; aspect-ratio: 3/2;
+ object-fit: contain;
 }
-#secondSection{
- width: 100%;height:100vh;margin: 0 auto;padding: 0 auto; padding-inline: 5%;
- background-color: whitesmoke;
+.secondSection section p{
+ z-index: 5; margin-top: -115%; background-color: var(--secondaryThemeColor);
+ width: fit-content; height: fit-content;  position: absolute; 
+ border-radius: 50%;
+}
+.secondSection section p i{
+ padding: 20px;  color: white; font-size: 150%;
+}
+.secondSection section article{
+ width: 100%; padding-inline: 3%; text-align: center;
+}
+.secondSection section a{
+ position: absolute; right: 1%;
+ bottom: 0; background-color: var(--secondaryThemeColor);
+ width: fit-content; height: fit-content; padding: 10px 20px; margin: 20px;
+ border-radius: 20px; color: white;
+}
+.thirdSection{
+ width: 100%;height:135vh;margin: 0 auto;padding: 0 auto; padding-inline: 5%;
+ background-color: var(--darkThemeColor);
  display: flex;
- align-items: center;justify-content:flex-end;
-
-}
-#secondSection .firstDiv{
- width: 50%;height: 90%;margin: 0;padding: 0;
- position: relative;
-}
-#secondSection .firstDiv section{
- width: 70%;position: absolute;height: 80%;
- top:10%;left: 3%;
- border: 2px solid var(--themeColor);
-}
-#secondSection .firstDiv img{
- width: 50%; height: auto; position: absolute;
-}
-#secondSection .firstDiv img:nth-last-of-type(1){
- top: 25%; left:35%;
-}
-#secondSection .firstDiv img:nth-last-of-type(2){
- top: 0%; left: 8%;
-}
-#secondSection .firstDiv span{
- width: fit-content; height: fit-content; padding:20px 40px; margin: 0 auto;
- background-color: white; z-index: 2;
- position: absolute;bottom: 25%; left: 20%;
- display: flex; align-items: center; justify-content: center;
-  flex-direction: column; 
-  font-size: 100%;
-
-}
-#secondSection .firstDiv span h1{
- font-weight: bold;font-size: 3vw;
-}
-#secondSection .firstDiv span h3{
- font-size: 90%;color: var(--themeColor);
-}
-#secondSection .secondDiv{
- width: 50%;height: fit-content;margin: 0;padding:5% 1% 8% 1%;
- gap: 10px;
- display: flex;align-items:left;justify-content:center;flex-direction: column;
-}
-
-#secondSection .secondDiv span{
- color: var(--themeColor); font-weight: bold;
-}
-#secondSection .secondDiv h1{
- font-size: 4vw;
- line-height: 90%;
- width: 100%; margin: 20px 0px;
-}
-
-#secondSection .secondDiv a{
-background-color: var(--secondaryThemeColor);
-padding: 10px 20px;  border-radius: 20px;
-width: fit-content;height: fit-content;
-color: white;
-}
-#secondSection .secondDiv li{
-list-style-type:none; font-weight: bold;
-}
-
-#secondSection .secondDiv li i{
- color: var(--themeColor);
-}
-#thirdSection{
- width: 100%;height:fit-content;margin: 0 auto;padding:3% 7%;
- background-color: #0b0217;
- display: flex; flex-direction: column;
  align-items: center;justify-content:center;
-
-}
-#thirdSection .firstDiv{
- width: 100%; height: fit-content;
- padding: 2% 2%;margin: 0 auto; position: relative;
-
-}
-#thirdSection .firstDiv span{
- color: var(--secondaryThemeColor);
-}
-
-#thirdSection .firstDiv h1{
- color: white;font-size: 3vw; font-weight: 900;
-}
-
-#thirdSection .firstDiv article{
- color: gray; 
-}
-
-#thirdSection .firstDiv a{
- color: white; position: absolute; right: 0; bottom: 45%;
- background-color: var(--secondaryThemeColor);
- padding: 10px 20px;
-}
-#thirdSection .secondDiv{
- width: 100%; height: fit-content; gap: 40px;
- padding: 3% 0%;margin: 0 auto;display: flex; flex-wrap: wrap;
- align-items: center; justify-content: center;
-}
-#thirdSection .secondDiv section{
- width: 30%;  height: fit-content;
-}
-#thirdSection .secondDiv section img{
-width: 100%; height: 30%; object-fit: contain; aspect-ratio: 3/2;
-}
-#thirdSection .secondDiv section h3{
- color: white; font-size: 110%;
-}
-#thirdSection .secondDiv section article{
- color: gray; font-size: 100%;
-
 }
