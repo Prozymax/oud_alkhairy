@@ -136,3 +136,75 @@ iframe
 {
   color: red;
 }
+
+
+/* media Quarries */
+
+@media screen and (max-width:900px) {
+  #contact-intro{
+    padding: 10% 3%; width:100%; height: 90vh; margin: 0 auto;
+    background-size: cover;
+  }
+  #contact-intro section{
+    width: 100%; margin: 0 auto; padding: 4%; 
+  }
+  #contact-intro section h2{
+    font-size: 200%;
+  }
+  #contact-intro section article{
+    font-size: 110%;
+  }
+  #section_one{
+    flex-direction: column; height: fit-content;  padding: 5% 3%; gap: 30px;
+  }
+  #section_one div:first-of-type{
+    width: 100%;
+  }
+  #section_one div:first-of-type h3{
+    font-size: 200%;
+  }
+  #section_one div:first-of-type p b{
+    font-size: 130%;
+  }
+  #section_one div:first-of-type p i{
+      font-size: 150%;
+  }
+  #section_one div:first-of-type p span{
+    font-size: 85%;
+  }
+  #section_one div:first-of-type aside p{
+    font-size: 80%;
+  }
+  #section_one div:last-of-type{
+    width: 100%;
+  }
+  #section_one div:last-of-type h3{
+    font-size: 150%;
+  }
+  #section_one .cn_info section{
+    width: 100%;
+  }
+  #section_one .form section{
+    width: 100%;
+  }
+  #fn{
+    width: 100%; background-size: cover;
+  }
+  #fn section{
+    width: 100%; margin: 0 auto; padding: 5% 3% ;
+  }
+  #fn section i{
+    font-size: 350%;
+  }
+  #fn section h2{
+    font-size: 200%; width: 100%; padding: 0;
+  }
+  #fn section article{
+    width: 100%;
+  }
+  #fn section button{
+    font-size: 110%;
+    width: fit-content; height: auto; padding: 10px 20px;
+  }
+
+}
