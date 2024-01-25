@@ -61,3 +61,35 @@ i{
  display: flex;
  align-items: center;justify-content:center;
 }
+
+/* media quaries */
+@media screen and (max-width:900px){
+ body{
+  margin: 0 auto;
+  padding: 0 auto;
+ }
+ .secondSection{
+  background-color: var(--darkThemeColor); height: 400vh;
+ }
+ .secondSection .head{
+  height: 50vh; margin-top: 10%;
+ }
+ .secondSection .head h1{
+  font-size: 250%; color: white;
+ }
+ .secondSection .head article{
+  font-size: 100%; color: white;
+ }
+ .secondSection .grid{
+  margin: 50% 0px 0px 0px ; flex-direction: column; flex-wrap: wrap;
+  padding: 0% 5%;
+ }
+ .secondSection .grid section{
+  width: 100%; margin-block:20%;
+
+ }
+ .thirdSection{
+  background-color: var(--darkThemeColor);
+  height: fit-content;
+ }
+}

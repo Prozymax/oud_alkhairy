@@ -164,3 +164,67 @@ width: 100%; height: 30%; object-fit: contain; aspect-ratio: 3/2;
  color: gray; font-size: 100%;
 
 }
+.gridSection{
+  width: 40%;
+  margin-block:0px;
+}
+
+
+
+
+
+/* media Quaries */
+@media screen and (max-width:900px) {
+
+  #firstSection{
+    height: 95vh;
+    background-color: var(--darkThemeColor);
+    display: flex; align-items: center; justify-content: center;
+  }
+  #firstSection .firstDiv{
+    width: 100%; height: 80%; 
+
+  }
+  #firstSection .firstDiv h1{
+    font-size: 300%;
+  }
+  #firstSection .firstDiv article{
+    font-size: 90%;
+  }
+  #secondSection{
+    flex-direction: column; height: fit-content;
+  }
+  #secondSection .firstDiv{
+    width: 100%; display: none; 
+  }
+ 
+  #secondSection .secondDiv{
+    width: 100%; gap: 5px; height: 70vh;
+
+  }
+  #secondSection .secondDiv h1{
+    font-size: 300%;
+  }
+  #secondSection .secondDiv li{
+    font-size: 80%; margin-bottom: 10px;
+  }
+  #thirdSection .firstDiv{
+    padding-block: 30px;background-color: red; 
+    flex-direction: column; hieght: 60%;
+  }
+  #thirdSection .firstDiv h1{
+    font-size: 200%; margin-bottom: 0px;
+  }
+  #thirdSection .firstDiv a{
+    bottom: 0;
+    left: 0;
+    width: fit-content;
+  }
+  #thirdSection .secondDiv{
+    flex-direction: column;
+  }
+  #thirdSection .secondDiv section{
+    width: 100%;
+  }
+
+}
