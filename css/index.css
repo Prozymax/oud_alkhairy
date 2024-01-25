@@ -200,22 +200,23 @@ nav li:hover .fa-caret-right {transform: rotate(-90deg)}
 
 #about-div 
 {
-    display: flex;align-items: center;justify-content: center;height: 60vh;
+    display: flex;align-items: center;justify-content: center;height: 80vh;background-size: 25%;background-position-x: -3%;background-position-y: -30%;
+    background-image: url("../img/istockphoto-1061122134-612x612.jpg");background-repeat: no-repeat;
 }
 
 #about-div div:first-of-type
 {
-    width: 40%;height: fit-content;;border: 1px solid blue;padding: 1%;
+    width: 35%;height: fit-content;padding: 1%;;
 }
 
 #about-div div:first-of-type span
 {
-    color: var(--darkThemeColor);font-weight: bolder;
+    color: var(--themeColor);font-weight: bolder;text-transform: uppercase;
 }
 
 #about-div div:first-of-type h1
 {
-    font-size: 3vw;width: 85%;line-height: 100%;padding-top: 2%;
+    font-size: 2vw;width: 100%;line-height: 100%;padding-top: 2%;text-transform: uppercase;color: var(--secondaryThemeColor);
 }
 
 #about-div div:first-of-type p:first-of-type
@@ -223,16 +224,117 @@ nav li:hover .fa-caret-right {transform: rotate(-90deg)}
     padding: 2% 0;width: 90%;
 }
 
-#about-div div:first-of-type article
+#about-div div:first-of-type article:first-of-type
 {
-    background-color: yellow;color: grey;display: flex;align-items: center;
+    color: grey;display: flex;align-items: center;
 }
+#about-div div:first-of-type article:first-of-type aside i {font-size: 2vw;color: var(--themeColor);padding-block: 4%;}
+#about-div div:first-of-type ul {width: 50%;margin-left: 5%;}#about-div div:first-of-type article:first-of-type aside {text-transform: uppercase;}
+#about-div div:first-of-type li {list-style-type: none;padding: 1% 0;}#about-div div:first-of-type #big {font-size: 1.8vw;font-weight: bolder;}
+#about-div div:first-of-type li i {font-size: .8vw;color: var(--themeColor);}#about-div div:first-of-type em {font-size: 1vw;text-transform: lowercase;}
 
-#about-div div:first-of-type article:first-of-type i {font-size: 4vw;color: var(--extremeDarkThemeColor);;}
-#about-div div:first-of-type ul {width: 50%;background-color: red;margin-right: -5%;}
+#about-div div:first-of-type article:last-of-type
+{
+    width: 100%;display: flex;align-items: center;;
+}
+#about-div div:first-of-type article:last-of-type button
+{
+    width: 50%;height: 60px;background-color: var(--themeColor);color: white;
+}
+#about-div div:first-of-type article:last-of-type p {display: flex;align-items: center;margin: 0 2%;}
+#about-div div:first-of-type article:last-of-type p i {color: var(--themeColor);margin: 0 2%;font-size: 1.5vw;padding: 3%;border-radius: 50%;box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.205);}
+#about-div div:first-of-type article:last-of-type p span b {text-transform: uppercase;color: grey;}#about-div div:first-of-type article:last-of-type p span {color: black;}
 
 #about-div div:last-child
 {
-    width: 40%;
+    display: flex;align-items: center;justify-content: center;width:35%;height: 90%;border: 2px solid var(--themeColor);
 }
 
+#about-div div:last-child section
+{
+    width: 50%;height: 95%;position: relative;display: flex;flex-direction: column;align-items: center;justify-content: center;
+}
+#about-div div:last-child section:first-of-type figure
+{
+    width: 90%;height: 45%;margin: 3% 0;background-repeat: no-repeat;background-size: cover;
+    background-image: url("../img/rigTower.jpg");
+}
+#about-div div:last-child section:first-of-type figure:first-of-type {background-image: url("../img/rov.jpeg");}
+#about-div div:last-child article
+{
+    width: 60%;height: 150px;padding: 5% 0;display: flex;flex-direction: column;;justify-content: center;align-items: center;
+    background-color: whitesmoke;position: absolute;bottom: -5%;line-height: 150%;right: -5%;z-index: 1;
+}
+#about-div div:last-child article b
+{
+    font-size: 2vw;font-weight: bolder;
+}#about-div div:last-child article span {color: var(--themeColor);text-transform: uppercase;font-weight: bolder;letter-spacing: 3px;}
+
+#about-div div:last-child section:last-of-type figure
+{
+    width: 100%;height: 100%;transform: translate(2%, -5%);background-size: cover;background-repeat: no-repeat;
+    background-image: url("../img/pexels-martin-damboldt-799091.jpg");
+}
+
+#partners
+{
+ display: flex;align-items: center;background: var(--extremeDarkThemeColor);;color: white;width: 80%;justify-content: center;
+ height: 25vh;
+}
+
+#partners section:first-of-type
+{
+ width: 30%;
+}
+#partners section:first-of-type h4
+{
+ font-size: 1.5vw;
+}
+#partners section:first-of-type article {width: 70%;padding-block: 5% 7%;}
+#partners section:first-of-type hr {width: 40%;height: 3px;}
+
+#partners section:last-of-type
+{
+ width: 60%;display: flex;align-items: center;justify-content: center;
+}
+
+#partners section:last-of-type img 
+{
+ width: 30%;margin: 0 1%;;
+}
+
+#phx 
+{
+ width: 100%;height: 70vh;display: flex;align-items: center;justify-content: center;
+}
+
+#phx div:first-of-type {width: 40%;height: 95%;display: flex;align-items: center;position: relative;margin-inline-end: 3%;}
+#phx div:first-of-type section {width: 90%;;display: flex;align-items: center;background: red;height: 80%;position: relative;}
+#phx div:first-of-type section figure 
+{
+    width: 55%;height: 90%;background: yellow;;
+}
+#phx div:first-of-type section:last-of-type {
+    position: absolute;right: 0;top: 0;background-color: brown;z-index: 1;
+    width: 50%;
+}
+#phx div:first-of-type section:last-of-type figure {width: 100%;height: 100%;}
+#phx div:first-of-type section article 
+{
+    position: absolute;height: fit-content;padding: 4%;background: white;display: grid;place-items: center;line-height: 100%;
+    right: 40%;bottom: 0;z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+#phx div:last-of-type 
+{
+    width: 30%;
+}
