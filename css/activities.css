@@ -177,13 +177,16 @@ width: 100%; height: 30%; object-fit: contain; aspect-ratio: 3/2;
 @media screen and (max-width:900px) {
 
   #firstSection{
-    height: 95vh;
+    height: fit-content;
     background-color: var(--darkThemeColor);
     display: flex; align-items: center; justify-content: center;
   }
   #firstSection .firstDiv{
-    width: 100%; height: 80%; 
+    width: 100%; height:fit-content ; 
 
+  }
+  #firstSection .firstDiv a{
+    display: none;
   }
   #firstSection .firstDiv h1{
     font-size: 300%;
@@ -199,7 +202,7 @@ width: 100%; height: 30%; object-fit: contain; aspect-ratio: 3/2;
   }
  
   #secondSection .secondDiv{
-    width: 100%; gap: 5px; height: 70vh;
+    width: 100%; gap: 5px; height:fit-content;
 
   }
   #secondSection .secondDiv h1{
@@ -209,16 +212,19 @@ width: 100%; height: 30%; object-fit: contain; aspect-ratio: 3/2;
     font-size: 80%; margin-bottom: 10px;
   }
   #thirdSection .firstDiv{
-    padding-block: 30px;background-color: red; 
-    flex-direction: column; hieght: 60%;
+    padding-block: 30px; 
+    flex-direction: column; height:220px;
   }
   #thirdSection .firstDiv h1{
-    font-size: 200%; margin-bottom: 0px;
+    font-size: 180%; margin-bottom: 0px;
   }
   #thirdSection .firstDiv a{
     bottom: 0;
     left: 0;
     width: fit-content;
+  }
+  #thirdSection .firstDiv article{
+    display: none;
   }
   #thirdSection .secondDiv{
     flex-direction: column;
