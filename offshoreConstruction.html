@@ -37,15 +37,15 @@
   </div>
   <nav>
       <ul>
-          <li><i class="fa-solid fa-house"></i>&nbsp;Home</i></li>
-          <li><i class="fa-solid fa-industry"></i>Company</i></li>
-          <li><i class="fa-solid fa-tools"></i>Services&nbsp;<i class="fa-solid fa-caret-right"></i></li>
-          <li>
-              <h1><img src="img/logo_cropped.png" alt="logo"></h1>
-          </li>
-          <li><i class="fa-solid fa-book"></i>Pages&nbsp;<i class="fa-solid fa-caret-right"></i></li>
-          <li><i class="fa-solid fa-headset"></i>Contact Us</i></li>
-          <li><i class="fa-solid fa-search"></i></li>
+        <li onclick="window.location = '/'"><i class="fa-solid fa-house"></i>&nbsp;Home</i></li>
+        <li onclick="window.location = '/company.html'"><i class="fa-solid fa-industry"></i>Company</i></li>
+        <li onclick="window.location = '/services.html'"><i class="fa-solid fa-tools"></i>Services&nbsp;<i class="fa-solid fa-caret-right"></i></li>
+        <li onclick="window.location = '/'">
+            <h1><img src="img/logo_cropped.png" alt="logo"></h1>
+        </li>
+        <li><i class="fa-solid fa-book"></i>Pages&nbsp;<i class="fa-solid fa-caret-right"></i></li>
+        <li onclick="window.location = '/contact-us.html'"><i class="fa-solid fa-headset"></i>Contact Us</i></li>
+        <li><i class="fa-solid fa-search"></i></li>
       </ul>
   </nav>
 </header>
@@ -136,5 +136,61 @@
   </div>
  </div>
  <script src="https://kit.fontawesome.com/1e3c5331c9.js" crossorigin="anonymous"></script>
-</body>
+      <footer>
+        <div>
+            <section>
+                <h1>About Us</h1>
+                <hr color="green">
+                <article>
+                    <img src="../img/logo.jpg" alt="logo-jpg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A recusandae, ullam velit, nisi at s Enim.</p>
+                </article>
+            </section>
+            <section>
+                <h1>Quick Links</h1>
+                <hr color="green">
+                <article>
+                    <ul>
+                        <li onclick="window.location = '/'"><i class="fa-solid fa-circle-chevron-right"></i>&nbsp; Home</li>
+                        <li onclick="window.location = '/company.html'"><i class="fa-solid fa-circle-chevron-right"></i>&nbsp; About Us</li>
+                        <li onclick="window.location = '/services.html'"><i class="fa-solid fa-circle-chevron-right"></i>&nbsp; Services</li>
+                        <li onclick="window.location = '/contact-us.html'"><i class="fa-solid fa-circle-chevron-right"></i>&nbsp; Contact Us</li>
+                    </ul>
+                </article>
+            </section>
+            <section>
+                <h1>Company Links</h1>
+                <hr color="green">
+                <article>
+                    <ul>
+                        <li onclick="window.location = '/assetIntergrity.html'"><i class="fa-solid fa-circle-chevron-right"></i>&nbsp;Asset Integrity</li>
+                        <li onclick="window.location = '/agriculturalServices.html'"><i class="fa-solid fa-circle-chevron-right"></i>&nbsp;Agricultural Services</li>
+                        <li onclick="window.location = '/electricalWorks.html'"><i class="fa-solid fa-circle-chevron-right"></i>&nbsp;Electrical Services</li>
+                        <li onclick="window.location = '/offshoreConstruction.html'"><i class="fa-solid fa-circle-chevron-right"></i>&nbsp;Offshore Construction</li>
+                    </ul>
+                </article>
+            </section>
+            <section>
+                <h1>Contact Info</h1>
+                <hr color="green">
+                <article>
+                    <p><i class="fa-solid fa-location"></i>No. 5 Chief Mgba Street, Woji, Rivers State</p>
+                    <p><i class="fa-solid fa-phone"></i>+234 912 847 3234</p>
+                    <p onclick="window.location = 'mailto:oudalkhairy@gmail.com'"><i class="fa-solid fa-envelope"></i>oudalkhairy@gmail.com</p>
+                    <aside>
+                        <i class="fa-brands fa-twitter"></i><i class="fa-brands fa-linkedin-in"></i><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-facebook"></i>
+                    </aside>
+                </article>
+            </section>
+        </div>
+        <div id="copy">
+            <p>
+                &copy; Oud Alkhairy &middot; All Rights Reserved &nbsp;|&nbsp;Designed by PHILTECHS
+            </p>
+            <p>
+                <span>Contact Us</span>&nbsp;|&nbsp;<span>About Us</span>
+            </p>
+        </div>
+      </footer>
+    </body>
 </html>
