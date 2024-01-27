@@ -18,6 +18,7 @@
         <title>Oud Alkhair - Home</title>
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="mobileview/index.css">
+        <script defer src="js/mobileheader.js"></script>
         <script src="https://kit.fontawesome.com/1e3c5331c9.js" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -49,6 +50,36 @@
                 </ul>
             </nav>
         </header>
+
+<div class="mobile-header-cont">
+            <section>
+                <img src="img/logo_cropped.png" alt="Oud Alkhairy-logo">
+                <h1>Oud Alkhairy</h1>
+            </section>
+            <section>
+                <div class="nav">
+                        <article></article>
+                        <article></article>
+                        <article></article>
+                        <article></article>
+                    </div>
+                    <ul class="nav-list">
+                        <span class="abs-close">&times;</span>
+                        <figure></figure>
+                        <li id="nav-list-item" onclick="window.location = '/'"><i class="fa-solid fa-house"></i> &nbsp;&nbsp;&nbsp;&nbsp;Home</li>
+                <!-- <li id="nav-list-item"  class="li-drop-down"><i class="fa-solid fa-book"></i> &nbsp;&nbsp;&nbsp;&nbsp;
+                    Pages
+                    <ul class="addon-list">
+                        <li onclick="window.location = '/company'"><span><i class="fa-solid fa-industry"></i></span>&nbsp;&nbsp;&nbsp;Company</li>
+                        <li onclick="window.location = '/mission'"><span><i class="fa-solid fa-person-circle-exclamation"></i></span>&nbsp;&nbsp;&nbsp;Mission</li>
+                    </ul>
+                </li> -->
+                <li id="nav-list-item"  onclick="window.location='/company.html'"><i class="fa-solid fa-industry"></i> &nbsp;&nbsp;Company</li>
+                <li id="nav-list-item"  onclick="window.location='/services.html'"><i class="fa-solid fa-tools"></i> &nbsp;&nbsp;Services</li>
+                <li id="nav-list-item"  onclick="window.location = '/contact-us.html'"><i class="fa-solid fa-envelope"></i> &nbsp;&nbsp;Contact Us</li>
+                    </ul>
+            </section>
+        </div>
 
         <div id="intro">
             <section>
@@ -118,7 +149,7 @@
         </div>
        </div>
 
-       <div id="partners">
+       <!-- <div id="partners">
         <section>
             <h4>Our Proud Clients</h4>
             <article>
@@ -129,7 +160,7 @@
         <section>
             <img src="img/logo.jpg" alt="logo_company"><img src="img/logo.jpg" alt="logo_company"><img src="img/logo.jpg" alt="logo_company">
         </section>
-       </div>
+       </div> -->
 
        <div id="phx">
         <div>

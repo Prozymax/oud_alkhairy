@@ -9,6 +9,11 @@
     --themeShade: rgba(41, 6, 49, 0.671);
 }
 
+.mobile-header-cont
+{
+    display: none;
+}
+
 button
 {
     font-family: inherit;border: none;
