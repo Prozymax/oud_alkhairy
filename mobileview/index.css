@@ -162,14 +162,14 @@ header
 
 #intro 
 {
-    height: 70vh;background: rgba(47, 6, 56, 0.459);
+    height: 85vh;background: rgba(47, 6, 56, 0.459);
     background-size: cover;background-image: url('../img/assetFirstSectionImage.jpg');
     flex-direction: column;justify-content: center;
 }
 
 #intro section
 {
-    width: 85%;margin-inline-start: 0;padding: 2% 4%;
+    width: 95%;margin-inline-start: 0;padding: 2% 4%;
 }
 
 #intro span
