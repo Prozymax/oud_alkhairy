@@ -118,7 +118,7 @@ list-style-type:none; font-weight: bold;
  color: var(--themeColor);
 }
 #thirdSection{
- width: 100%;height:fit-content;margin: 0 auto;padding:3% 7%;
+ width: 100%;height:fit-content;margin: 0 auto;padding:3% 5%;
  background-color: #0b0217;
  display: flex; flex-direction: column;
  align-items: center;justify-content:center;
