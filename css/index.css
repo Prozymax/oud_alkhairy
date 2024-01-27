@@ -100,6 +100,48 @@ nav li:hover .fa-caret-right {transform: rotate(-90deg)}
 .fa-search {opacity: 1;}
 
 
+.li-drop-down 
+{
+    position: relative;overflow: hidden;
+}
+
+.li-drop-down ul {
+    position: absolute;top: 100%;width: 150%;display: block;padding-top: 4%;z-index: 1;
+    background: white;height: 0%;overflow: hidden;transition: .5s;;
+}
+
+.li-drop-down figure {
+    width: 95%;height: 55%;margin: 0 auto;
+    background-image: url('../img/subsea.jpg');
+    margin-block-end: 1%;background-repeat: no-repeat;background-size: cover;
+}
+
+.li-drop-down li 
+{
+    width: 100%;color: black;height: 15%;text-align: start;justify-content:flex-start;
+    padding: 0 5%;font-size: .7vw;
+    border-radius: 0;display: flex;align-items: center;transition: .3s;
+}
+.li-drop-down span 
+{
+    font-weight: bolder;transition: .5s;font-size: .9vw;
+}
+
+.li-drop-down li:hover
+{
+    padding: 0 4%;box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.336);border: none;
+}
+
+.li-drop-down li:hover span
+{
+    transform: translateX(10%); padding: 0 4%;
+}
+.li-drop-down:hover {overflow: visible}
+.li-drop-down:hover ul 
+{
+    height: 800%;;box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.116);
+}
+
 #intro 
 {
     height: 100vh;width: 100%;background: rgba(47, 6, 56, 0.459);
