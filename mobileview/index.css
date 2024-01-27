@@ -241,7 +241,7 @@ nav
 }
 
 #flex-layout {width: 100%;height: fit-content;;flex-direction: column;}
-#flex-layout section {width: 90%;height: 400px;margin: 0 auto;}
+#flex-layout section {width: 90%;height: 400px;margin: 0 auto; margin-bottom: 15%;}
 #flex-layout figure {width: 100%;height: 70%;}
 #flex-layout h1 {font-size: 100%;}
 #flex-layout span i {font-size: 150%;padding: 6%;}
