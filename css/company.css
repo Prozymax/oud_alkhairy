@@ -6,7 +6,7 @@
 
 #about-intro section 
 {
- width: 35%;height: 50%;margin-inline-start: 15%;background: var(--themeShade);;color: white;padding: 3%;;
+ width: 35%;height: fit-content;margin-inline-start: 15%;background: var(--themeShade);;color: white;padding: 3%;;
 }
 
 #about-intro section span
@@ -21,7 +21,7 @@
 
 #about-intro article
 {
- height: 50%;
+ height: 50%; margin-bottom: 4% ;
 }
 
 #inn
