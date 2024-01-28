@@ -129,7 +129,7 @@ nav li:hover .fa-caret-right {transform: rotate(-90deg)}
 
 .li-drop-down li:hover
 {
-    padding: 0 4%;box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.336);border: none;
+    padding: 0 4%;box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.336);border: none;background-color: var(--themeColor);color: white;
 }
 
 .li-drop-down li:hover span
@@ -139,7 +139,7 @@ nav li:hover .fa-caret-right {transform: rotate(-90deg)}
 .li-drop-down:hover {overflow: visible}
 .li-drop-down:hover ul 
 {
-    height: 800%;;box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.116);
+    height: 1000%;;box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.116);
 }
 
 #intro 
