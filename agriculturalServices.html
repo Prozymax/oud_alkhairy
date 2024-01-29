@@ -38,27 +38,32 @@
       </section>
   </div>
   <nav>
-      <ul>
+    <ul>
         <li onclick="window.location = '/'"><i class="fa-solid fa-house"></i>&nbsp;Home</i></li>
         <li onclick="window.location = '/company.html'"><i class="fa-solid fa-industry"></i>Company</i></li>
-        <li onclick="window.location = '/services.html'"><i class="fa-solid fa-tools"></i>Services</li>
         <li onclick="window.location = '/'">
             <h1><img src="img/logo_cropped.png" alt="logo"></h1>
         </li>
+        <li class="li-drop-down"><i class="fa-solid fa-tools"></i>
+            <a href="/services.html">Services</a> <i class="fa-solid fa-caret-right"></i>
+            <ul>
+                <figure></figure>
+                <li onclick="window.location = '/assetIntergrity.html'"><span><i class="fa-solid fa-industry"></i></span>&nbsp;&nbsp;Asset Integrity</li>
+                <li onclick="window.location = '/offshoreConstruction.html'"><span><i class="fa-solid fa-hands-holding-circle"></i></span>&nbsp;&nbsp;Offshore Construction</li>
+                <li onclick="window.location = '/agriculturalServices.html'"><span><i class="fa-solid fa-person-circle-exclamation"></i></span>&nbsp;&nbsp;Agricultural Services</li>
+                <li onclick="window.location = '/electricalWorks.html'"><span><i class="fa-solid fa-person-circle-exclamation"></i></span>&nbsp;&nbsp;Electrical Works</li>
+            </ul>
+        </li>
         <li class="li-drop-down"><i class="fa-solid fa-book"></i>
-                        Pages&nbsp;<i class="fa-solid fa-caret-right"></i>
-                        <ul>
-                            <figure></figure>
-                            <li onclick="window.location = '/assetIntergrity.html'"><span><i class="fa-solid fa-industry"></i></span>&nbsp;&nbsp;Asset Integrity</li>
-                            <li onclick="window.location = '/offshoreConstruction.html'"><span><i class="fa-solid fa-hands-holding-circle"></i></span>&nbsp;&nbsp;Offshore Construction</li>
-                            <li onclick="window.location = '/agriculturalServices.html'"><span><i class="fa-solid fa-person-circle-exclamation"></i></span>&nbsp;&nbsp;Agricultural Services</li>
-                            <li onclick="window.location = '/electricalWorks.html'"><span><i class="fa-solid fa-person-circle-exclamation"></i></span>&nbsp;&nbsp;Electrical Works</li>
-                        </ul>
-                    </li>
-        <li onclick="window.location = '/contact-us.html'"><i class="fa-solid fa-headset"></i>Contact Us</i></li>
-        <!-- <li><i class="fa-solid fa-search"></i></li> -->
-      </ul>
-  </nav>
+            Pages&nbsp;<i class="fa-solid fa-caret-right"></i>
+            <ul>
+                <figure></figure>
+                <li onclick="window.location = '/team.html'"><span><i class="fa-solid fa-users"></i></span>&nbsp;&nbsp;Our Team</li>
+                <li onclick="window.location = '/contact-us.html'"><span><i class="fa-solid fa-headset"></i></span>&nbsp;&nbsp;Contact Us</li>
+            </ul>
+        </li>
+    </ul>
+</nav>
 </header>
 
 <div class="mobile-header-cont">
@@ -188,7 +193,7 @@ especially in food production.
                 <h1>About Us</h1>
                 <hr color="green">
                 <article>
-                    <img src="../img/logo.jpg" alt="logo-jpg">
+                    <span id="img-title"><img src="../img/logo_cropped.png" alt="logo-jpg">Oud Alkhairy <br>Limited</span>
                     <p>Making a difference while being the most preffered</p>
                 </article>
             </section>

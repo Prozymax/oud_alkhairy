@@ -1,0 +1,8 @@
+nav {background: var(--darkThemeColor);}
+#soon 
+{
+  height: 80vh;display: grid;place-items: center;padding-block: 4% 0;
+}
+
+#soon img 
+{ width: 30%;}
