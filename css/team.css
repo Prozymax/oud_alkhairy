@@ -29,12 +29,12 @@
 
 #staffs div
 {
-  width: 80%;height: 450px;display: flex;;margin: 0 auto;;align-items: center;justify-content: center;
+  width: 80%;height: 600px;display: flex;;margin: 0 auto;;align-items: center;justify-content: center;
 }
 
 #staffs div figure
 {
-  width: 30%;height: 100%;;background-image: url('../img/lanre.jpg');margin-inline-end: 4%;background-repeat: no-repeat;
+  width: 30%;height: 80%;;background-image: url('../img/lanre.jpg');margin-inline-end: 4%;background-repeat: no-repeat;
   background-size: 100%;background-position: top;
 }
 
