@@ -1,7 +1,7 @@
 @media screen and (max-width: 950px) 
 {
 body {
-    overflow-x: hidden;
+    overflow-x: hidden;font-size: 90%;
 }
 
 .abs-close
@@ -366,11 +366,12 @@ header
  width: 50%;height: 60px;border-radius: 30px;;margin: 4% 0;
 }
 
-#flex-layout {width: 100%;height: fit-content;;flex-direction: column;}
-#flex-layout section {width: 90%;height: 400px;margin: 0 auto; margin-bottom: 15%;}
-#flex-layout figure {width: 100%;height: 70%;}
+#flex-layout {width: 100%;height: auto;flex-direction: column;}
+#flex-layout section {width: 100%;height: fit-content;margin: 0 auto;}
+#flex-layout figure {height: 400px;;}
 #flex-layout h1 {font-size: 100%;}
-#flex-layout span i {font-size: 150%;padding: 6%;}
+#flex-layout article {height: fit-content;width: 80%;padding: 4% 2%;}
+#flex-layout span i {font-size: 150%;}
 
 #services {height: fit-content;padding: 10% 0;}
 #services div:last-of-type {width: 100%;margin: 0 auto;height: fit-content;flex-direction: column;}

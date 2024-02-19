@@ -37,7 +37,7 @@ input:focus {outline: none;border: none;}
 
 body {
     font-family: 'Nunito', sans-serif;
-    overflow-x: hidden;
+    overflow-x: hidden;font-size: .9vw;
 }
 
 header
@@ -72,8 +72,10 @@ nav
 
 nav ul
 {
-    display: flex;align-items: center;justify-content: center;width: 90%;margin: 0 auto;
+    display: flex;align-items: center;justify-content: center;width: 100%;margin: 0 auto;
 }
+
+nav > ul li:hover > i {transition: .5s;}
 
 nav img 
 {
@@ -83,7 +85,7 @@ nav img
 nav li
 {
     width: 12%;list-style-type: none;text-transform: uppercase;height: 100%;text-align: center;
-    cursor: pointer;color: rgb(255, 255, 255);padding: .5% 0;;
+    cursor: pointer;color: rgb(255, 255, 255);padding: .5% 0;;font-size: .9vw;
 }
 
 .fa-caret-right
@@ -93,7 +95,7 @@ nav li
 
 nav i
 {
-    transform: translateX(120%);opacity: 0;transition: .5s;
+    transform: translateX(120%);opacity: 0;
 }
 
 nav li:hover i
@@ -143,8 +145,8 @@ nav li:hover .fa-caret-right {transform: rotate(-90deg)}
 #intro 
 {
     height: 100vh;width: 100%;background: rgba(47, 6, 56, 0.459);
-    background-repeat: no-repeat;background-size: 100%;background-position: center;
-    background-image: url('../img/assetFirstSectionImage.jpg');
+    background-repeat: no-repeat;background-size: cover;background-position: center;
+    background-image: url('../img/rigOnWater.jpg');
     background-blend-mode: soft-light;display: flex;align-items: center;;
 }
 
@@ -171,7 +173,7 @@ nav li:hover .fa-caret-right {transform: rotate(-90deg)}
 
 #intro button 
 {
-    width: 30%;height: 60px;background-color: var(--secondaryThemeColor);border: none;transition: .5s;
+    width: 40%;padding: 4% 0;background-color: var(--secondaryThemeColor);border: none;transition: .5s;
     color: rgb(255, 255, 255);margin-block: 2% 0;font-family: inherit;cursor: pointer;
 }
 
@@ -319,7 +321,7 @@ nav li:hover .fa-caret-right {transform: rotate(-90deg)}
 #about-div div:last-child section:last-of-type figure
 {
     width: 100%;height: 100%;transform: translate(2%, -5%);background-size: cover;background-repeat: no-repeat;
-    background-image: url("../img/pexels-martin-damboldt-799091.jpg");
+    background-image: url("../img/pexels-jorge-runnacles-13681780.jpg");background-position: center;
 }
 
 #partners
@@ -396,12 +398,12 @@ nav li:hover .fa-caret-right {transform: rotate(-90deg)}
 #mini-services section:first-of-type {width: 30%;margin-inline-end: 5%;height: 70%;}#mini-services section:last-of-type {text-align: right;width: 30%;height: 70%;;}#mini-services span {color: var(--themeColor);font-weight: bolder;text-transform: uppercase;}
 #mini-services h1 {font-size: 2vw;color: var(--darkThemeColor);width: 90%;padding: 1% 0;}#mini-services section:first-of-type article {color: gray;}
 #mini-services section:last-of-type article {color: grey;font-weight: bolder;height: 50%;text-align: start;}
-#mini-services button {width: 35%;height: 60px;background-color: var(--secondaryThemeColor);color: white;transition: .5s;cursor: pointer;}
+#mini-services button {width: 45%;height: 50px;background-color: var(--secondaryThemeColor);color: white;transition: .5s;cursor: pointer;}
 #mini-services button:hover {color: var(--secondaryThemeColor);background-color: white;box-shadow: 0 0 12px 0 rgba(3, 3, 3, 0.178);border-radius: 30px;}
 
-#flex-layout {width: 100%;height: 55vh;background: linear-gradient(to bottom, white 70%, var(--extremeDarkThemeColor) 30%);display: flex;align-items: center;justify-content: center;}#flex-layout section {width: 20%;height: 90%;text-align: center;margin: 0 1%;}
-#flex-layout figure {width: 100%;height: 70%;background-position: center;background-repeat: no-repeat;background-size: cover;background-image: url("../img/farm.jpg");}#flex-layout h1 {font-weight: 900;font-size: 1vw;}
-#flex-layout article {background-color: white;height: 20%;display: grid;place-content: center;}#flex-layout span i {transform: translateY(30%);font-size: 1.5vw;color: white;padding: 6%;border-radius: 50%;background: var(--secondaryThemeColor);}
+#flex-layout {width: 100%;height: 55vh;background: linear-gradient(to bottom, white 70%, var(--extremeDarkThemeColor) 30%);display: flex;align-items: center;justify-content: center;}#flex-layout section {width: 20%;height: 90%;text-align: center;margin: 0 1%;background-color: white;}
+#flex-layout figure {width: 100%;height: 60%;background-position: center;background-repeat: no-repeat;background-size: cover;background-image: url("../img/farm.jpg");}#flex-layout h1 {font-weight: 900;font-size: 1vw;text-transform: uppercase;;}
+#flex-layout article {height: 30%;display: grid;place-content: center;width: 80%;margin: 0 auto;padding: 0 2%}#flex-layout span i {transform: translateY(30%);font-size: 1.5vw;color: white;padding: 6%;border-radius: 50%;background: var(--secondaryThemeColor);}
 
 #services {width: 100%;height: 90vh;background: var(--extremeDarkThemeColor);}#services div:first-of-type span {color: var(--secondaryThemeColor);} #services div:first-of-type h1 {color: white;}
 #services div:last-of-type {width: 65%;margin: 0 auto;height: 50vh;;display: flex;align-items: center;flex-wrap: wrap;}
