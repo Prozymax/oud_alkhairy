@@ -300,28 +300,41 @@ nav li:hover .fa-caret-right {transform: rotate(-90deg)}
 
 #about-div div:last-child section
 {
-    width: 50%;height: 95%;position: relative;display: flex;flex-direction: column;align-items: center;justify-content: center;
+    width: 100%;height: 100%;display: inline-flex;overflow:visible;
 }
 #about-div div:last-child section:first-of-type figure
 {
-    width: 90%;height: 45%;margin: 3% 0;background-repeat: no-repeat;background-size: cover;
+    width: 100%;height: 100%;background-repeat: no-repeat;background-size: cover;
     background-image: url("../img/rigTower.jpg");
+    animation: photo_slide 15s cubic-bezier(0.895, 0.8, 0.85, 0.28) .5s infinite;
 }
-#about-div div:last-child section:first-of-type figure:first-of-type {background-image: url("../img/rov.jpeg");}
-#about-div div:last-child article
-{
-    width: 60%;height: 150px;padding: 5% 0;display: flex;flex-direction: column;;justify-content: center;align-items: center;
-    background-color: whitesmoke;position: absolute;bottom: -5%;line-height: 150%;right: -5%;z-index: 1;
-}
-#about-div div:last-child article b
-{
-    font-size: 2vw;font-weight: bolder;
-}#about-div div:last-child article span {color: var(--themeColor);text-transform: uppercase;font-weight: bolder;letter-spacing: 3px;}
 
-#about-div div:last-child section:last-of-type figure
+@keyframes photo_slide 
 {
-    width: 100%;height: 100%;transform: translate(2%, -5%);background-size: cover;background-repeat: no-repeat;
-    background-image: url("../img/pexels-jorge-runnacles-13681780.jpg");background-position: center;
+    0% 
+    {
+        background-image: url('../img/rigTower.jpg');
+    } 
+    10%
+    {
+        background-image: url('../img/rigTower.jpg');
+    }
+    40% 
+    {
+        background-image: url('../img/rov.jpeg');
+    } 
+    60%
+    {
+        background-image: url('../img/rov.jpeg');
+    }
+    80% 
+    {
+        background-image: url('../img/rigOnWater.jpg');
+    }  
+    100%
+    {
+        background-image: url('../img/rigOnWater.jpg');
+    } 
 }
 
 #partners
@@ -459,9 +472,93 @@ nav li:hover .fa-caret-right {transform: rotate(-90deg)}
 #diff section:last-of-type figure:last-of-type {height: 80%;background-image: url("../img/pexels-zukiman-mohamad-87236.jpg");}
 #diff section:last-of-type figure {width: 95%;background-repeat: no-repeat;background-size: cover;background-position: center;}
 
+#teams-intro
+{
+    width: 100%;height: 60vh;background-image: url("../img/11667116_20944999.jpg");
+    background-repeat: no-repeat;background-size: 35%;background-position-x: 75%;;
+    display: flex;align-items: center;padding-inline-start: 8%;background-position-y: 60%;
+}
+
+#teams-intro section
+{
+    padding: 4%;width: 35%;margin-inline-start: 4%;
+}
+
+#teams-intro h1
+{
+    font-size: 3vw;;padding: 2% 0;color: var(--themeColor);
+}
+
+#teams-intro article
+{
+    padding: 6% 0;border-bottom: 2px solid white;width: 90%;font-size: 1vw;color: grey;
+}
+
+.staffs-cont
+{
+    display: flex;justify-content: center;align-items: center;height: fit-content;width: 100%;;
+    flex-wrap: wrap;padding: 4%;;
+}
+
+.staffs-cont section
+{
+    width: 30%;height: fit-content;margin: 1%;;
+}
+
+.staffs-cont figure
+{
+    width: 100%;height: 400px;background-repeat: no-repeat;background-size: cover;
+}
+
+.staffs-cont article
+{
+    padding: 2% 0%;transition: .5s;
+}
+
+.staffs-cont article p i
+{
+    padding: 2%;border-radius: 50%;transition: .5s;margin: 0 .5%;
+}
+.staffs-cont i:hover {background: white;color: var(--themeColor);}
+
+.staffs-cont article p span 
+{
+    font-size: .8vw;display: none;transition: .2s;color: white;
+}.staffs-cont section:hover article p span {display: block;padding: 2% 0;}
+
+.staffs-cont h1
+{
+    font-size: 1vw;padding: 2% 0;
+}
+
+.staffs-cont button
+{
+    width: 50%;height: 50px;background: white;background-color: white;margin-block: 2% 0;
+    transition: .5s;opacity: 0;border-radius: 0px;
+}
+
+.staffs-cont section:hover article
+{
+    background: var(--themeColor);color: white;padding: 8%;
+}
+
+.staffs-cont section:hover button {opacity: 1;}.staffs-cont button:hover {border-radius: 30px;}
+
+.staffs-cont section:first-of-type > figure
+{
+    background-image: url("../img/lanre.jpg");background-size: cover;
+    background-position-y: 15%;
+}
+
+.staffs-cont section:nth-of-type(2) > figure
+{
+    background-image: url("../img/ayo\ .jpg");background-size: 70%;background-position: center;
+    background-color: whitesmoke;;
+}
+
 
 footer { width: 100%;height: 50vh;background: var(--extremeDarkThemeColor);flex-wrap: wrap;color: white;padding: 0;padding-block: 4% 0;}
-footer section {width: 20%;height: 80%;margin-inline-end: 1%;}footer div:first-of-type {width: 100%;padding: 2% 0;display: flex;align-items: center;justify-content: center;;}
+footer section {width: 20%;height: 80%;margin-inline-end: 1%;}footer div:first-of-type {width: 100%;padding: 2% 0;display: flex;align-items: start;justify-content: center;;}
 footer hr {width: 20%;height: 3px;}footer section:nth-of-type(2), footer section:nth-of-type(3) {width: 15%;}footer h1 {text-transform: uppercase;height: 10%;}
 footer section:nth-of-type(2) hr, footer section:nth-of-type(3) hr {width: 20%;}footer article {height: 88%;padding-block-start: 8%;}
 footer img {width: 20%;;padding-inline: 0 4%;;}footer section:first-of-type p {width: 90%;}footer li {cursor: pointer;transition: .5s;list-style-type: none;padding: 3% 0;height: 15%;}
