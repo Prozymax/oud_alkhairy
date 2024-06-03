@@ -249,12 +249,12 @@ nav li:hover .fa-caret-right {transform: rotate(-90deg)}
 #about-div 
 {
     display: flex;align-items: center;justify-content: center;height: 80vh;background-size: 25%;background-position-x: -3%;background-position-y: -30%;
-    background-image: url("../img/istockphoto-1061122134-612x612.jpg");background-repeat: no-repeat;
+    background-image: url("../img/istockphoto-1061122134-612x612.jpg");background-repeat: no-repeat;;
 }
 
 #about-div div:first-of-type
 {
-    width: 35%;height: fit-content;padding: 1%;;
+    width: 40%;height: fit-content;padding: 1%;;margin-left: 20%;;
 }
 
 #about-div div:first-of-type span
@@ -496,13 +496,13 @@ nav li:hover .fa-caret-right {transform: rotate(-90deg)}
 
 .staffs-cont
 {
-    display: flex;justify-content: center;align-items: center;height: fit-content;width: 100%;;
+    display: flex;justify-content: center;height: fit-content;width: 100%;;
     flex-wrap: wrap;padding: 4%;;
 }
 
 .staffs-cont section
 {
-    width: 30%;height: fit-content;margin: 1%;;
+    width: 30%;height: fit-content;margin: 1%;;transition: .5s ease;
 }
 
 .staffs-cont figure
@@ -554,6 +554,12 @@ nav li:hover .fa-caret-right {transform: rotate(-90deg)}
 {
     background-image: url("../img/ayo\ .jpg");background-size: 70%;background-position: center;
     background-color: whitesmoke;;
+}
+
+.staffs-cont section:nth-of-type(3) > figure
+{
+    background-image: url("../img/Abdul.jpeg");background-size: 90%;background-position-y: 15%;
+    background-color: rgb(255, 255, 255);;
 }
 
 

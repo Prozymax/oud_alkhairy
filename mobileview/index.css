@@ -239,7 +239,7 @@ header
 
 #about-div div:first-of-type
 {
-    width: 90%;padding: 4% 2%;margin: 0 auto;
+    width: 90%;padding: 4% 2%;margin: 0 auto;margin-left: 0;
 }
 
 #about-div div:first-of-type h1
