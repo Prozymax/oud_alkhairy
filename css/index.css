@@ -547,7 +547,7 @@ nav li:hover .fa-caret-right {transform: rotate(-90deg)}
 .staffs-cont section:first-of-type > figure
 {
     background-image: url("../img/lanre.jpg");background-size: cover;
-    background-position-y: 15%;
+    background-position-y: 50%;
 }
 
 .staffs-cont section:nth-of-type(2) > figure
