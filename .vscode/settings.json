@@ -1,6 +1,7 @@
 {
-    "liveServer.settings.port": 5501,
-    "editor.fontFamily": "Dina",
-    "files.autoSave": "afterDelay",
-    "editor.tabSize": 1
+  "liveServer.settings.port": 5501,
+  "editor.fontFamily": "Dina",
+  "files.autoSave": "afterDelay",
+  "editor.tabSize": 1,
+  "html.autoClosingTags": false
 }
