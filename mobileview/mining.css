@@ -1,0 +1,369 @@
+@media screen and (max-width: 950px) {
+  /* Fix overflow */
+  body {
+    overflow-x: hidden !important;
+  }
+
+  /* Mobile Header - Ensure it's on top */
+  .mobile-header-cont {
+    position: relative !important;
+    z-index: 100 !important;
+  }
+
+  .nav-list {
+    z-index: 200 !important;
+  }
+
+  /* First Section (Hero) - Lower z-index */
+  #firstSection {
+    height: 60vh !important;
+    background-position: center !important;
+    position: relative !important;
+    z-index: 1 !important;
+  }
+
+  .firstDiv {
+    width: 90% !important;
+    padding: 6% !important;
+  }
+
+  .firstDiv h1 {
+    font-size: 6vw !important;
+    line-height: 1.3 !important;
+  }
+
+  .firstDiv span {
+    font-size: 3.5vw !important;
+  }
+
+  .firstDiv article {
+    font-size: 3.5vw !important;
+    line-height: 1.6 !important;
+  }
+
+  /* About Mining Section */
+  #about-mining {
+    padding: 8% 5% !important;
+  }
+
+  #about-mining section:first-of-type {
+    margin-bottom: 6% !important;
+  }
+
+  #about-mining section:first-of-type h1 {
+    font-size: 6vw !important;
+  }
+
+  #about-mining section:last-of-type {
+    flex-direction: column !important;
+  }
+
+  #about-mining section:last-of-type article {
+    width: 100% !important;
+    margin-bottom: 4%;
+  }
+
+  /* Materials Portfolio Section - Dark Background */
+  .miningServices-materials-section {
+    padding: 8% 5% !important;
+  }
+
+  /* Target all sections with specific inline styles */
+  [style*="background: var(--darkThemeColor)"][style*="padding: 5% 10%"] {
+    padding: 8% 5% !important;
+  }
+
+  [style*="background: var(--darkThemeColor)"]
+    section[style*="text-align: center"]
+    h1 {
+    font-size: 6vw !important;
+  }
+
+  [style*="background: var(--darkThemeColor)"]
+    section[style*="text-align: center"]
+    p {
+    width: 90% !important;
+    font-size: 3.5vw !important;
+  }
+
+  /* Materials Grid - Target the grid specifically */
+  [style*="background: var(--darkThemeColor)"]
+    [style*="display: grid"][style*="grid-template-columns"] {
+    grid-template-columns: 1fr !important;
+    gap: 5% !important;
+    margin-top: 5% !important;
+  }
+
+  [style*="background: var(--darkThemeColor)"] [style*="display: grid"] > div {
+    padding: 6% !important;
+    margin-bottom: 4% !important;
+  }
+
+  [style*="background: var(--darkThemeColor)"]
+    [style*="display: grid"]
+    > div
+    h3 {
+    font-size: 4.5vw !important;
+  }
+
+  [style*="background: var(--darkThemeColor)"]
+    [style*="display: grid"]
+    > div
+    i {
+    font-size: 6vw !important;
+  }
+
+  [style*="background: var(--darkThemeColor)"]
+    [style*="display: grid"]
+    > div
+    p {
+    font-size: 3.5vw !important;
+  }
+
+  [style*="background: var(--darkThemeColor)"]
+    [style*="display: grid"]
+    > div
+    [style*="display: flex"] {
+    margin-bottom: 3% !important;
+  }
+
+  /* Why Choose Us Section - White Background */
+  [style*="padding: 5% 10%; background: white"]:not([style*="display: flex"]) {
+    padding: 8% 5% !important;
+    clear: both !important;
+  }
+
+  [style*="padding: 5% 10%; background: white"]
+    > section[style*="text-align: center"] {
+    margin-bottom: 8% !important;
+  }
+
+  [style*="padding: 5% 10%; background: white"] > section h1 {
+    font-size: 6vw !important;
+  }
+
+  [style*="padding: 5% 10%; background: white"] > section span {
+    font-size: 3.5vw !important;
+  }
+
+  /* Why Choose Us Grid Container */
+  [style*="padding: 5% 10%; background: white"]
+    > [style*="display: flex"][style*="justify-content: space-between"] {
+    flex-direction: column !important;
+    gap: 0 !important;
+  }
+
+  [style*="padding: 5% 10%; background: white"]
+    > [style*="display: flex"]
+    > [style*="width: 30%"] {
+    width: 100% !important;
+    margin-bottom: 8% !important;
+  }
+
+  [style*="padding: 5% 10%; background: white"]
+    [style*="width: 80px; height: 80px"] {
+    width: 60px !important;
+    height: 60px !important;
+    margin-bottom: 4% !important;
+  }
+
+  [style*="padding: 5% 10%; background: white"]
+    [style*="width: 80px; height: 80px"]
+    i {
+    font-size: 5vw !important;
+  }
+
+  [style*="padding: 5% 10%; background: white"]
+    h3[style*="color: var(--themeColor)"] {
+    font-size: 4.5vw !important;
+    margin-bottom: 3% !important;
+  }
+
+  [style*="padding: 5% 10%; background: white"] p[style*="color: grey"] {
+    font-size: 3.5vw !important;
+    line-height: 1.6 !important;
+  }
+
+  /* Gallery Section */
+  [style*="padding: 5% 10%; background: #f5f5f5"] {
+    padding: 8% 5% !important;
+  }
+
+  [style*="padding: 5% 10%; background: #f5f5f5"] h1 {
+    font-size: 6vw !important;
+  }
+
+  [style*="padding: 5% 10%; background: #f5f5f5"] p {
+    width: 90% !important;
+    font-size: 3.5vw !important;
+  }
+
+  /* Gallery Grid */
+  [style*="display: grid"][style*="grid-template-columns: repeat(2, 1fr)"] {
+    grid-template-columns: 1fr !important;
+    gap: 4% !important;
+  }
+
+  [style*="display: grid"][style*="grid-template-columns: repeat(2, 1fr)"]
+    > div {
+    height: 250px !important;
+  }
+
+  /* Video Section */
+  [style*="padding: 5%; background: white; display: flex"] {
+    flex-direction: column !important;
+    padding: 8% 5% !important;
+  }
+
+  [style*="padding: 5%; background: white; display: flex"] > div {
+    width: 100% !important;
+  }
+
+  [style*="padding: 5%; background: white; display: flex"]
+    [style*="width: 60%; margin: 0 auto"] {
+    width: 100% !important;
+  }
+
+  #miningVideo {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  #playButton {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  #playButton i {
+    font-size: 1.5rem !important;
+  }
+
+  /* Video Content Text */
+  [style*="padding: 5%; background: white; display: flex"] h2 {
+    font-size: 5vw !important;
+    margin: 5% 0 !important;
+  }
+
+  [style*="padding: 5%; background: white; display: flex"]
+    p[style*="color: grey"] {
+    font-size: 3.5vw !important;
+    line-height: 1.6 !important;
+  }
+
+  [style*="padding: 5%; background: white; display: flex"]
+    span[style*="color: grey"] {
+    font-size: 3.5vw !important;
+  }
+
+  [style*="padding: 5%; background: white; display: flex"] .fa-check-circle {
+    font-size: 4vw !important;
+  }
+
+  [style*="padding: 5%; background: white; display: flex"] button {
+    padding: 4% 8% !important;
+    font-size: 3.5vw !important;
+    width: 100% !important;
+    margin-top: 4%;
+  }
+
+  /* CTA Section - Improved Mobile View */
+  [style*="padding: 8% 10%"][style*="text-align: center"][style*="background"] {
+    padding: 15% 6% !important;
+    min-height: 60vh !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-position: center !important;
+    background-size: cover !important;
+  }
+
+  [style*="padding: 8% 10%"][style*="text-align: center"] h2 {
+    font-size: 8vw !important;
+    margin-bottom: 6% !important;
+    line-height: 1.2 !important;
+    font-weight: 700 !important;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.3) !important;
+  }
+
+  [style*="padding: 8% 10%"][style*="text-align: center"] > p {
+    font-size: 4.2vw !important;
+    width: 100% !important;
+    max-width: 500px !important;
+    margin: 0 auto 10% !important;
+    line-height: 1.7 !important;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.2) !important;
+  }
+
+  [style*="padding: 8% 10%"][style*="text-align: center"] button {
+    padding: 4.5% 12% !important;
+    font-size: 4.5vw !important;
+    width: 85% !important;
+    max-width: 320px !important;
+    min-height: 55px !important;
+    border-radius: 35px !important;
+    font-weight: 700 !important;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3) !important;
+    transition: all 0.3s ease !important;
+    letter-spacing: 0.5px !important;
+  }
+
+  [style*="padding: 8% 10%"][style*="text-align: center"] button:active {
+    transform: scale(0.96) !important;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3) !important;
+  }
+
+  /* General span adjustments */
+  span[style*="color: var(--secondaryThemeColor)"][style*="text-transform: uppercase"] {
+    font-size: 3vw !important;
+  }
+
+  /* Ensure sections don't overlap */
+  body > div {
+    position: relative !important;
+    z-index: 1 !important;
+  }
+
+  /* Button adjustments */
+  button[onclick*="contact-us"] {
+    width: 100% !important;
+    padding: 4% 6% !important;
+    font-size: 3.5vw !important;
+    border-radius: 8px !important;
+  }
+}
+
+/* Tablet adjustments (768px - 950px) */
+@media screen and (min-width: 768px) and (max-width: 950px) {
+  [style*="background: var(--darkThemeColor)"] [style*="display: grid"] {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  [style*="display: grid"][style*="grid-template-columns: repeat(2, 1fr)"] {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  [style*="padding: 5% 10%; background: white"] > [style*="display: flex"] {
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+  }
+
+  [style*="padding: 5% 10%; background: white"]
+    > [style*="display: flex"]
+    > div {
+    width: 48% !important;
+  }
+
+  [style*="padding: 5%; background: white; display: flex"] {
+    flex-direction: row !important;
+  }
+
+  [style*="padding: 5%; background: white; display: flex"] > div {
+    width: 48% !important;
+  }
+
+  [style*="padding: 5%; background: white; display: flex"]
+    [style*="width: 60%; margin: 0 auto"] {
+    width: 80% !important;
+  }
+}

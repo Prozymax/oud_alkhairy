@@ -179,7 +179,7 @@ width: 100%; height: 30%; object-fit: contain; aspect-ratio: 3/2;
 /* media Quaries */
 @media screen and (max-width:950px) {
   #firstSection{
-    height: fit-content; margin: 0 auto;  overflow-x:hidden ;
+    height: 100vh; margin: 0 auto;  overflow-x:hidden ;
     background-color: var(--darkThemeColor);
     display: flex; align-items: center; justify-content: center;
   }
