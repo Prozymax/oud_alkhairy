@@ -565,9 +565,9 @@ nav li:hover .fa-caret-right {transform: rotate(-90deg)}
 
 footer { width: 100%;height: 50vh;background: var(--extremeDarkThemeColor);flex-wrap: wrap;color: white;padding: 0;padding-block: 4% 0;border: none;}
 footer section {width: 20%;height: 80%;margin-inline-end: 1%;}footer div:first-of-type {width: 100%;padding: 2% 0;display: flex;align-items: start;justify-content: center;background: inherit;border: nonw;}
-footer hr {width: 20%;height: 3px;}footer section:nth-of-type(2), footer section:nth-of-type(3) {width: 15%;}footer h1 {text-transform: uppercase;height: 10%;}
+footer hr {width: 20%;height: 3px;}footer section:nth-of-type(2), footer section:nth-of-type(3) {width: 15%;}footer h1 {text-transform: uppercase;height: 10%;font-size: 16px;}
 footer section:nth-of-type(2) hr, footer section:nth-of-type(3) hr {width: 20%;}footer article {height: 88%;padding-block-start: 8%;}
-footer img {width: 20%;;padding-inline: 0 4%;;}footer section:first-of-type p {width: 90%;}footer li {cursor: pointer;transition: .5s;list-style-type: none;padding: 3% 0;height: 15%;}
+footer img {width: 25%;;padding-inline: 0 4%;;}footer section:first-of-type p {width: 90%;}footer li {cursor: pointer;transition: .5s;list-style-type: none;padding: 3% 0;height: 15%;}
 footer ul {height: 80%;;}footer li i {color: var(--secondaryThemeColor)}footer section:last-of-type i {padding: 0 2%;font-size: 1vw;color: var(--secondaryThemeColor)}
 footer section:last-of-type article p {padding-block-end: 4%;cursor: pointer;;}footer aside:last-of-type i {padding: 2%;transition: .5s;border: 1px solid var(--secondaryThemeColor);margin-inline-end: 1%;}
 footer aside i:hover {background-color: white;color: var(--secondaryThemeColor);cursor: pointer;border-radius: 10px;transform: translateY(-10%);border: none;}
