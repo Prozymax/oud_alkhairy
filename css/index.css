@@ -42,7 +42,7 @@ body {
 
 header
 {
-    width: 100%;height: fit-content;position: absolute;top: 0;left: 0;
+    width: 100%;height: fit-content;position: absolute;top: 0;left: 0;z-index: 9;
 }
 
 .pre-header 
@@ -471,97 +471,6 @@ nav li:hover .fa-caret-right {transform: rotate(-90deg)}
 #diff section:last-of-type article:last-of-type {display: flex;align-items: flex-end;}#diff section:last-of-type article:first-of-type figure:first-of-type {height: 95%;background-image: url("../img/pexels-photomix-company-224924.jpg");}
 #diff section:last-of-type figure:last-of-type {height: 80%;background-image: url("../img/pexels-zukiman-mohamad-87236.jpg");}
 #diff section:last-of-type figure {width: 95%;background-repeat: no-repeat;background-size: cover;background-position: center;}
-
-#teams-intro
-{
-    width: 100%;height: 60vh;background-image: url("../img/11667116_20944999.jpg");
-    background-repeat: no-repeat;background-size: 35%;background-position-x: 75%;;
-    display: flex;align-items: center;padding-inline-start: 8%;background-position-y: 60%;
-}
-
-#teams-intro section
-{
-    padding: 4%;width: 35%;margin-inline-start: 4%;
-}
-
-#teams-intro h1
-{
-    font-size: 3vw;;padding: 2% 0;color: var(--themeColor);
-}
-
-#teams-intro article
-{
-    padding: 6% 0;border-bottom: 2px solid white;width: 90%;font-size: 1vw;color: grey;
-}
-
-.staffs-cont
-{
-    display: flex;justify-content: center;height: fit-content;width: 100%;;
-    flex-wrap: wrap;padding: 4%;;
-}
-
-.staffs-cont section
-{
-    width: 30%;height: fit-content;margin: 1%;;transition: .5s ease;
-}
-
-.staffs-cont figure
-{
-    width: 100%;height: 500px;background-repeat: no-repeat;background-size: cover;
-}
-
-.staffs-cont article
-{
-    padding: 2% 0%;transition: .5s;
-}
-
-.staffs-cont article p i
-{
-    padding: 2%;border-radius: 50%;transition: .5s;margin: 0 .5%;
-}
-.staffs-cont i:hover {background: white;color: var(--themeColor);}
-
-.staffs-cont article p span 
-{
-    font-size: .8vw;display: none;transition: .2s;color: white;
-}.staffs-cont section:hover article p span {display: block;padding: 2% 0;}
-
-.staffs-cont h1
-{
-    font-size: 1vw;padding: 2% 0;
-}
-
-.staffs-cont button
-{
-    width: 50%;height: 50px;background: white;background-color: white;margin-block: 2% 0;
-    transition: .5s;opacity: 0;border-radius: 0px;
-}
-
-.staffs-cont section:hover article
-{
-    background: var(--themeColor);color: white;padding: 8%;
-}
-
-.staffs-cont section:hover button {opacity: 1;}.staffs-cont button:hover {border-radius: 30px;}
-
-.staffs-cont section:first-of-type > figure
-{
-    background-image: url("../img/lanre.jpg");background-size: cover;
-    background-position-y: 50%;
-}
-
-.staffs-cont section:nth-of-type(2) > figure
-{
-    background-image: url("../img/ayo.jpeg");background-size: 100%;background-position: center;
-    background-color: whitesmoke;;
-}
-
-.staffs-cont section:nth-of-type(3) > figure
-{
-    background-image: url("../img/Abdul.jpeg");background-size: 90%;background-position-y: 15%;
-    background-color: rgb(255, 255, 255);;
-}
-
 
 footer { width: 100%;height: 50vh;background: var(--extremeDarkThemeColor);flex-wrap: wrap;color: white;padding: 0;padding-block: 4% 0;border: none;}
 footer section {width: 20%;height: 80%;margin-inline-end: 1%;}footer div:first-of-type {width: 100%;padding: 2% 0;display: flex;align-items: start;justify-content: center;background: inherit;border: nonw;}

@@ -3,23 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="title" content="Contact Us - Oud Alkhairy" />
+    <meta name="title" content="Team Member Profile - Oud Alkhairy" />
     <meta name="author" content="Oud Alkhairy" />
-    <meta name="keywords" content="Oud Alkhairy Contact, Get in Touch, Contact Information" />
-    <meta name="description" content="Get in touch with Oud Alkhairy Ltd. We're here to answer your questions and discuss your project needs.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#352347"/>
     <link rel="icon" href="/img/logo_cropped.png" type="image/x-icon">
-    <meta property="og:title" content="Contact Us - Oud Alkhairy"/>
-    <meta property="og:image" content="img/logo_cropped.png"/>
-    <meta property="og:description" content="Get in touch with Oud Alkhairy Ltd. We're here to answer your questions and discuss your project needs."/>
-    <meta property="og:url" content="https://oudalkhairy.com/contact"/>
-    <meta property="og:type" content="Website"/>
-    <title>Contact Us - Oud Alkhairy</title>
+    <title>Profile - Oud Alkhairy</title>
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/team.css">
     <link rel="stylesheet" href="mobileview/index.css">
     <script defer src="js/mobileheader.js"></script>
+    <script defer src="js/profile.js"></script>
     <script src="https://kit.fontawesome.com/1e3c5331c9.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -84,110 +78,41 @@
         </section>
     </div>
 
-    <div id="contact-hero">
-        <div class="contact-hero-overlay"></div>
-        <div class="contact-hero-content">
-            <span class="contact-badge"><i class="fa-solid fa-headset"></i>&nbsp;&nbsp;Contact Us</span>
-            <h1>Let's Start a Conversation</h1>
-            <p>We're here to answer your questions and discuss how we can help bring your projects to life</p>
+    <div id="profile-hero">
+        <div class="profile-hero-overlay"></div>
+        <div class="profile-hero-content">
+            <a href="/team.html" class="back-btn"><i class="fa-solid fa-arrow-left"></i> Back to Team</a>
+            <h1 id="profile-name">Loading...</h1>
+            <p class="profile-role" id="profile-role-hero">Loading...</p>
         </div>
     </div>
 
-    <div class="contact-intro-section">
-        <div class="intro-text">
-            <h2>Get in Touch</h2>
-            <p>Whether you have a question about our services, need a consultation, or want to discuss a potential project, our team is ready to assist you. Reach out through any of the channels below.</p>
-        </div>
-    </div>
-
-    <div class="contact-methods">
-        <div class="contact-card">
-            <div class="contact-icon">
-                <i class="fa-solid fa-location-dot"></i>
+    <div class="profile-container">
+        <div class="profile-card">
+            <div class="profile-header">
+                <div class="profile-image-container">
+                    <img id="profile-image" src="" alt="Profile" class="profile-image">
+                </div>
+                <div class="profile-info">
+                    <span class="profile-role-badge" id="profile-role-badge">Loading...</span>
+                    <h2 id="profile-name-main">Loading...</h2>
+                    <div id="profile-specializations"></div>
+                    <div class="profile-social-links">
+                        <a href="#" class="social-icon" id="linkedin-link"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="mailto:info@oudalkhairy.com" class="social-icon"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
             </div>
-            <h3>Visit Our Offices</h3>
-            <div class="contact-details">
-                <p><strong>Lagos Office</strong></p>
-                <p>No. 17 Alh Luqman Atobajeun Street<br>Ajao Estate, Oshodi Isolo<br>Lagos State, Nigeria</p>
-                <br>
-                <p><strong>Abuja Office</strong></p>
-                <p>SUITE 5-50 Ralph St<br>Central Business District<br>Abuja 900211, FCT, Nigeria</p>
+            <div class="profile-body">
+                <div class="profile-section">
+                    <h3><i class="fa-solid fa-user-circle"></i> About</h3>
+                    <p id="profile-bio">Loading...</p>
+                </div>
+                <div class="profile-section" id="experience-section" style="display: none;">
+                    <h3><i class="fa-solid fa-briefcase"></i> Experience & Expertise</h3>
+                    <ul class="experience-list" id="experience-list"></ul>
+                </div>
             </div>
-            <a href="https://maps.google.com/?q=No.+17+Alh+Luqman+Atobajeun+Street+Ajao+Estate+Lagos" target="_blank" class="contact-action">
-                Get Directions <i class="fa-solid fa-arrow-right"></i>
-            </a>
-        </div>
-
-        <div class="contact-card">
-            <div class="contact-icon">
-                <i class="fa-solid fa-envelope"></i>
-            </div>
-            <h3>Email Us</h3>
-            <div class="contact-details">
-                <p>For general inquiries and information about our services</p>
-                <p class="contact-value"><a href="mailto:info@oudalkhairy.com">info@oudalkhairy.com</a></p>
-                <br>
-                <p>We typically respond within 24 hours during business days</p>
-            </div>
-            <a href="mailto:info@oudalkhairy.com" class="contact-action">
-                Send Email <i class="fa-solid fa-arrow-right"></i>
-            </a>
-        </div>
-
-        <div class="contact-card">
-            <div class="contact-icon">
-                <i class="fa-solid fa-phone"></i>
-            </div>
-            <h3>Call Us</h3>
-            <div class="contact-details">
-                <p>Speak directly with our team for immediate assistance</p>
-                <p class="contact-value"><a href="tel:+2349070376856">+234 907 037 6856</a></p>
-                <p class="contact-value"><a href="tel:+2349023242433">+234 902 324 2433</a></p>
-                <br>
-                <p><strong>Business Hours:</strong><br>Monday - Friday: 8:00 AM - 6:00 PM<br>Saturday: 9:00 AM - 2:00 PM</p>
-            </div>
-            <a href="tel:+2349070376856" class="contact-action">
-                Call Now <i class="fa-solid fa-arrow-right"></i>
-            </a>
-        </div>
-    </div>
-
-    <!-- <div class="social-connect-section">
-        <div class="social-content">
-            <h2>Connect With Us</h2>
-            <p>Follow us on social media to stay updated on our latest projects, industry insights, and company news</p>
-            <div class="social-links">
-                <a href="#" class="social-link" aria-label="LinkedIn">
-                    <i class="fa-brands fa-linkedin-in"></i>
-                    <span>LinkedIn</span>
-                </a>
-                <a href="#" class="social-link" aria-label="Twitter">
-                    <i class="fa-brands fa-twitter"></i>
-                    <span>Twitter</span>
-                </a>
-                <a href="#" class="social-link" aria-label="Instagram">
-                    <i class="fa-brands fa-instagram"></i>
-                    <span>Instagram</span>
-                </a>
-                <a href="#" class="social-link" aria-label="Facebook">
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <span>Facebook</span>
-                </a>
-            </div>
-        </div>
-    </div> -->
-
-    <div class="map-section">
-        <div class="map-header">
-            <h2>Find Us on the Map</h2>
-            <p>Our Lagos office location</p>
-        </div>
-        <div class="map-container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d350.3581811621469!2d3.322726727597887!3d6.540566620570529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8e6eaa7bd437%3A0xb45c908ee4fe0be7!2sAlhaji%20Lukman%20Atobajeun%20St%2C%20Isolo%2C%20Ajao%20Estate%20102214%2C%20Lagos!5e0!3m2!1sen!2sng!4v1706521622356!5m2!1sen!2sng" 
-                    allowfullscreen="" 
-                    loading="lazy" 
-                    referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
         </div>
     </div>
 
